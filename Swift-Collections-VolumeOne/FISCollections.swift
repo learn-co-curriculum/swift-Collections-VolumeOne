@@ -10,12 +10,12 @@ import UIKit
 
 class FISCollections {
     
-    func sortArrayAsc (baseArray: [String]) -> [String] {
+    func sortArrayAsc (baseArray: [Int]) -> [Int] {
         return baseArray.sorted{ $0 < $1 }
     }
     
     
-    func sortArrayDesc (baseArray: [String]) -> [String] {
+    func sortArrayDesc (baseArray: [Int]) -> [Int] {
         return baseArray.sorted{ $1 < $0 }
     }
     
@@ -29,12 +29,12 @@ class FISCollections {
     
     func reverseArray (baseArray: [String]) -> [String] {
         var newArray = baseArray
-        reverse(newArray)
-        return newArray
+        var reversedArray = reverse(newArray)
+        return reversedArray
     }
     
     
-    func keshaMaker (baseArray: [Character]) -> [Character] {
+    func keshaMaker (baseArray: [String]) -> [String] {
         var newArray = baseArray
         newArray[2] = "$"
         return newArray
@@ -77,7 +77,7 @@ class FISCollections {
         
         var aArray = [String]()
     
-        aArray = baseArray.filter{ $0.hasPrefix("A") || $0.hasPrefix("Z")}
+        aArray = baseArray.filter{ $0.hasPrefix("A")}
         
         return aArray
     }
@@ -160,7 +160,8 @@ class FISCollections {
         
         for song in songArray {
             
-            let songArtistArray = split(song, {$0 == "-"}, maxSplit: Int.max, allowEmptySlices:false)
+            let modifiedSong = song.stringByReplacingOccurrencesOfString(" - ", withString: ";", options: nil, range:nil)
+            let songArtistArray = split(modifiedSong, {$0 == ";"}, maxSplit: Int.max, allowEmptySlices:false)
             
             if var tempArray = songsByArtistDictionary[songArtistArray[0]] {
             songsByArtistDictionary[songArtistArray[0]]?.append(songArtistArray[1])
