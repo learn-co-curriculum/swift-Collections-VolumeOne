@@ -15,7 +15,6 @@
 		31D91D261A115E9800C0C67B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31D91D241A115E9800C0C67B /* Main.storyboard */; };
 		31D91D281A115E9800C0C67B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31D91D271A115E9800C0C67B /* Images.xcassets */; };
 		31D91D2B1A115E9800C0C67B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31D91D291A115E9800C0C67B /* LaunchScreen.xib */; };
-		31D91D371A115E9800C0C67B /* Swift_Collections_VolumeOneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D91D361A115E9800C0C67B /* Swift_Collections_VolumeOneTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -97,7 +96,6 @@
 		31D91D2A1A115E9800C0C67B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		31D91D301A115E9800C0C67B /* Swift-Collections-VolumeOneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Swift-Collections-VolumeOneTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31D91D351A115E9800C0C67B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31D91D361A115E9800C0C67B /* Swift_Collections_VolumeOneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Swift_Collections_VolumeOneTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,7 +185,6 @@
 			children = (
 				317603A31A1BE99700F877F7 /* Quick.xcodeproj */,
 				317603801A1BE8AD00F877F7 /* Nimble.xcodeproj */,
-				31D91D361A115E9800C0C67B /* Swift_Collections_VolumeOneTests.swift */,
 				31D91D341A115E9800C0C67B /* Supporting Files */,
 			);
 			path = "Swift-Collections-VolumeOneTests";
@@ -380,7 +377,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31D91D371A115E9800C0C67B /* Swift_Collections_VolumeOneTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
