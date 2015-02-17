@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3134AF971A8EA83000BF61A5 /* FISCollectionsSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3134AF961A8EA83000BF61A5 /* FISCollectionsSpec.swift */; };
 		317603A21A1BE96D00F877F7 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317603881A1BE8AD00F877F7 /* Nimble.framework */; };
 		317603B31A1BE99C00F877F7 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 317603AC1A1BE99700F877F7 /* Quick.framework */; };
 		31D0B4DE1A126534005DE546 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 31D0B4DD1A126534005DE546 /* ViewController.xib */; };
@@ -84,6 +85,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3134AF961A8EA83000BF61A5 /* FISCollectionsSpec.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FISCollectionsSpec.swift; sourceTree = "<group>"; };
 		317603801A1BE8AD00F877F7 /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Vendor/Nimble/Nimble.xcodeproj; sourceTree = SOURCE_ROOT; };
 		317603A31A1BE99700F877F7 /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Vendor/Quick/Quick.xcodeproj; sourceTree = SOURCE_ROOT; };
 		31D0B4DD1A126534005DE546 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
@@ -183,6 +185,7 @@
 		31D91D331A115E9800C0C67B /* Swift-Collections-VolumeOneTests */ = {
 			isa = PBXGroup;
 			children = (
+				3134AF961A8EA83000BF61A5 /* FISCollectionsSpec.swift */,
 				317603A31A1BE99700F877F7 /* Quick.xcodeproj */,
 				317603801A1BE8AD00F877F7 /* Nimble.xcodeproj */,
 				31D91D341A115E9800C0C67B /* Supporting Files */,
@@ -377,6 +380,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3134AF971A8EA83000BF61A5 /* FISCollectionsSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
